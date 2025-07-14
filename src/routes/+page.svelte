@@ -1,7 +1,10 @@
 <script lang="ts">
-  import {Hero } from '$lib'
+	import { Hero, SectionHeadline } from '$lib';
+	import AboutMe from '$lib/components/AboutMe.svelte';
 </script>
 
-<h1>Welcome to SvelteKit</h1>
+<!-- <SectionHeadline sectionName="Top Section">Welcome to SvelteKit</SectionHeadline> -->
 
 <Hero />
+
+<AboutMe />
