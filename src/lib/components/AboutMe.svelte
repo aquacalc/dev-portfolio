@@ -27,12 +27,6 @@
 				inventore eos totam, non fugiat omnis, vel itaque.
 			</p>
 
-			<!-- <p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ut corporis inventore hic,
-				quam saepe, recusandae illum, ab voluptatem quas ullam cumque eveniet. Non excepturi quia
-				inventore eos totam, molestiae molestias culpa fugit dolorem. Sint unde iure magnam, modi
-				saepe minus facere maxime possimus odit, non fugiat omnis, vel itaque.
-			</p> -->
 			<Button className="mt-m" {onclick}>Tell me about your project</Button>
 		</div>
 	</div>
