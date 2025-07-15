@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
-	import { SectionHeadline, Button } from '$lib';
+	import { SectionHeadline, Button, ExperienceTable } from '$lib';
 
-  function onclick() {
-    goto('/#contact-form')
-  }
+	function onclick() {
+		goto('/#contact-form');
+	}
 </script>
 
 <section class="about-me mt-l">
@@ -33,26 +33,28 @@
 				inventore eos totam, molestiae molestias culpa fugit dolorem. Sint unde iure magnam, modi
 				saepe minus facere maxime possimus odit, non fugiat omnis, vel itaque.
 			</p> -->
-      <Button className='mt-m' {onclick}>Tell me about your project</Button>
+			<Button className="mt-m" {onclick}>Tell me about your project</Button>
 		</div>
 	</div>
+
+	<ExperienceTable />
 </section>
 
 <style>
 	.content-container {
 		display: flex;
 		justify-content: space-between;
-    align-self: stretch;
+		align-self: stretch;
 	}
 
 	.image {
 		width: 42%;
-    border-radius: 20px;
-    object-fit: cover;
+		border-radius: 20px;
+		object-fit: cover;
 	}
 
-  .text {
-    width: 55%;
-    text-align: left;
-  }
+	.text {
+		width: 55%;
+		text-align: left;
+	}
 </style>
