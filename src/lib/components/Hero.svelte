@@ -16,8 +16,8 @@
 
 	<!-- <h2 class="dark-grey">Aquaculture</h2> -->
 	<h2 class="dark-grey">Water chemistry</h2>
-	<h2 class="dark-grey">as intuitive as</h2>
-	<h2 class="mb-m">Google Maps</h2>
+	<h2 class="dark-grey" style='padding-left: 120px;'>as intuitive as</h2>
+	<h2 class="mb-m" style='padding-left: 195px;'>Google Maps</h2>
 
 	<Button {onclick}>Let's get in contact!</Button>
 </section>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { Hero, SectionHeadline } from '$lib';
+	import { Hero } from '$lib';
 	import AboutMe from '$lib/components/AboutMe.svelte';
 </script>
 
@@ -8,3 +8,4 @@
 <Hero />
 
 <AboutMe />
+
